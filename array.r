@@ -1,0 +1,7 @@
+a = c(1,2,3,4,5)
+b = c(6,7,8,9,10)
+col = c("Column1","Column2","Column3")
+row = c("Row1","Row2","Row3")
+mat = c("Matrix1",'Matrix2')
+res = array(c(a,b),dim=c(3,3,2),dimnames = list(row,col,mat))
+print(res)
