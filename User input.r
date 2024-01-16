@@ -1,0 +1,5 @@
+a = as.integer(readline("Enter the number: "))
+b = as.integer(readline("Enter the number: "))
+c = as.integer(readline("Enter the number: "))
+print(a+b+c)
+print(a*b*c)
