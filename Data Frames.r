@@ -24,3 +24,7 @@ print(d)
 #Accessing elements from the row corresponding specific column
 e = a[c(2,3),c(2,3)]
 print(e)
+
+
+#Printing the summary of data frame
+print(summary(a))
