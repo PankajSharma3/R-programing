@@ -28,3 +28,9 @@ print(e)
 
 #Printing the summary of data frame
 print(summary(a))
+
+
+#Rbind bind the row in the table
+b = list(6,"Arman",33000)
+a=rbind(a,b)
+print(a)
