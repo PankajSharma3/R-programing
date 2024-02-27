@@ -1,0 +1,5 @@
+d = read_excel("C:/Users/HP/Downloads/excel/Book2.xlsx")
+View(d)
+print(is.data.frame(d))
+print(ncol(d))
+print(nrow(d))
